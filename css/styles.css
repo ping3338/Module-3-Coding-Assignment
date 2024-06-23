@@ -1,0 +1,31 @@
+.tall-section {
+  height: 1000px;
+  background-color: #f8f8f8;
+}
+
+.navbar-nav > li > a {
+  color: #333;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #f8f8f8;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav > li {
+    width: 100%;
+  }
+
+  .navbar-nav > li > a {
+    width: 100%;
+    text-align: center;
+  }
+}
