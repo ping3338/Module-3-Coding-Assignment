@@ -1,7 +1,21 @@
-/* Tall section styling */
-.tall-section {
-  height: 1000px;
-  background-color: #f8f8f8;
+/* Section styling */
+.section {
+  height: 700px; /* Each section is tall */
+  padding: 20px;
+  background-color: #e0e0e0; /* Light gray background */
+  margin-bottom: 20px; /* Space between sections */
+}
+
+#chicken {
+  background-color: #f8f8f8; /* Light background for chicken section */
+}
+
+#beef {
+  background-color: #d9edf7; /* Light blue background for beef section */
+}
+
+#sushi {
+  background-color: #dff0d8; /* Light green background for sushi section */
 }
 
 /* Navbar link color */
@@ -15,38 +29,6 @@
 }
 
 /* Mobile dropdown menu styling */
-@media (max-width: 767px) {
-  .navbar-collapse {
-    background-color: #f8f8f8;
-  }
-
-  .navbar-nav {
-    width: 100%;
-  }
-
-  .navbar-nav > li {
-    width: 100%;
-  }
-
-  .navbar-nav > li > a {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-.tall-section {
-  height: 1000px;
-  background-color: #f8f8f8;
-}
-
-.navbar-nav > li > a {
-  color: #333;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-}
-
 @media (max-width: 767px) {
   .navbar-collapse {
     background-color: #f8f8f8;
